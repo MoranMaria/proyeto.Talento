@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria | APTa Zona Norte-Taekwondo</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/8d1da2eae4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header id="header" class="header">
+            <a href="../index.html">
+                <img class="logo" src="../assets/img/logo.png" alt="Logo de Apta zona norte, puño del arte marcial taekwondo" width="100px">
+            </a>
+           
+            <nav>
+            <ul>
+                <!--tambien puedo poner en el inicio # , o no poner nada-->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Carrito</h1>
+                <!--etiqueta para la tabla-->
+                <table>
+                    <!--etiqueta para la cabecera de la tabla-->
+                    <thead>
+                        <!--etiqueta para las filas de la cabecera-->
+                        <tr>
+                            <!--celdas de los titulos de la cabecera-->
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <!--etiqueta para los cuerpos de la tabla-->
+                    <tbody>
+                        <!--etiqueta para las filas de los productos aca hay 4 filas-->
+                        <tr>
+                            <td>Coca-cola</td>
+                            <td>4usd</td>
+                            <td>2</td>
+                            <td>8usd</td>
+                        </tr>
+                        <tr>
+                            <td>Pan Rayado</td>
+                            <td>2usd</td>
+                            <td>1</td>
+                            <td>2usd</td>
+                        </tr>
+                        <tr>
+                            <td>Lavandina</td>
+                            <td>3usd</td>
+                            <td>1</td>
+                            <td>3usd</td>
+                        </tr>
+                        <tr>
+                            <td>Café Cabrales</td>
+                            <td>5usd</td>
+                            <td>2</td>
+                            <td>10usd</td>
+                        </tr>
+                    
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Total:</td>
+                            <td>25usd</td>
+                        </tr>
+                    </tfoot>
+                </table>
+        </section>
+        </main>
+        <footer class="footer">
+            <div>
+                <h3>CONTACTO</h3>
+                <address>
+                    <p><span class="fuenteNegrita">Dirección:</span> calle 123, Colonia, Ciudad, CP 0000</p>
+                    <p><span class="fuenteNegrita">Teléfono:</span> (123) 456-7890</p>
+                    <p><span class="fuenteNegrita">Correo electrónico:</span>  contacto@talento.com</p>
+                </address>
+                <a href="https://www.instagram.com/?hl=es" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                
+                <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+             </div>
+                <nav>
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./carrito.html">Carrito</a></li>
+                    </ul>
+                    <div>
+                        <h3>CONTACTANOS</h3>
+                        <form action="">
+                            <input type="email" placeholder="Correo electrónico" id="correo" name="correo">
+                            <input type="submit" value="ENVIAR">
+                        </form>
+                    </div>
+                </nav>
+            </section>
+                       
+            <a href="#header">Volver</a>
+            <div><p>© 2024. Todos los derechos reservados.</p></div>
+        </footer> 
+    </body>
+</html>

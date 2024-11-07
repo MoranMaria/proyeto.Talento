@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:#0b327e;
+    text-align: center;
+     font-size: 3rem;
+    div{
+         font-size: 5rem;
+     }
+}
+h2{
+    color: rgb(211, 1, 1);
+    text-align: center;
+}
+.fuenteNegrita{
+    font-weight: 700;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    .logo{
+        width: 200px;
+    }
+    background-color: #426fb3db ;
+    nav{
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                margin-right: 15px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 2rem;
+                }
+            }
+        }
+            
+ 
+    }
+   
+}
+
+/*INDEX*/
+.fondoPrincipal{
+     text-align: center;
+    a{
+        font-size: 2rem;
+    }
+   background-image: url("../assets/img/imagen_principal1920.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:  top center;
+   height: 90vh;
+}
+
+.tituloPrincipal{
+    padding-top: 30px;
+    border-radius: 15px;/*borde redondeado*/
+    backdrop-filter: blur(20px);/*fondo blurreado*/
+    width: 700px;
+    margin: 0 auto;
+    a{
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 8px;
+        border-radius: 10px;
+    }
+}
+.seccionesIndex{
+    a{
+        text-decoration: underline;
+        color: rgb(180, 32, 2);
+    }
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+    .margenTop{
+        margin-top: 50px;
+    }
+/*PAGINA DE PRODUCTOS*/
+.productos{
+    img{
+        width: 200px;
+    }
+}
+
+
+/* PAGINA DE CONTACTO*/
+
+.fondoGradienteColores{
+    background-image: linear-gradient(to right top, #888690, #9d9ba4, #b3b1b8, #c9c8cd, #e0dfe2, #e0dfe2, #e0dfe2, #e0dfe2, #c9c8cd, #b3b1b8, #9d9ba4, #888690);
+}
+
+.footer{
+    background-color: #426fb3 ;
+    ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    .whatsapp{
+        font-size: 5rem;
+        color: #35df22;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
