@@ -7,6 +7,7 @@
 }
 
 h1{
+    padding: 50px;
     color:#0b327e;
     text-align: center;
      font-size: 3rem;
@@ -15,38 +16,51 @@ h1{
      }
 }
 h2{
+    font-size: 2.5rem;
     color: rgb(211, 1, 1);
     text-align: center;
+}
+
+h3{
+    color: #00246d;
 }
 .fuenteNegrita{
     font-weight: 700;
 }
 .header{
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 1000;
-    .logo{
-        width: 200px;
-    }
+    align-items: center;
     background-color: #426fb3db ;
-    nav{
-        ul{
-            list-style: none;
-            li{
-                display: inline-block;
-                margin-right: 15px;
+    display: flex;
+        img{
+            width: 200px;
+        }
+        nav{
+            width: 50%;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
                 a{
                     color: white;
                     text-decoration: none;
                     font-size: 2rem;
+                    border: 1px solid #000000;
+                    padding: 8px;
+                    border-radius: 10px;
+                    background-color: #9a9a9a;
                 }
+                
             }
+    
+    
         }
-            
- 
+    
     }
    
-}
 
 /*INDEX*/
 .fondoPrincipal{
@@ -78,24 +92,96 @@ h2{
         border-radius: 10px;
     }
 }
+/*caracteristicas generales de las secciones*/
 .seccionesIndex{
+   
+    padding: 80px;
+    padding-top: 150px;
     a{
         text-decoration: underline;
         color: rgb(180, 32, 2);
     }
     font-size: 1.5rem;
     text-align: center;
-
+    ul{
+        text-align: left;
+        list-style: disc;
+      }
+    h3{
+        text-align: left;
+    }
+}
+.seccionVideo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #94bae0;
 }
 
-    .margenTop{
-        margin-top: 50px;
+.fondoSeccion1{
+    font-size: 2rem;
+}
+
+
+/*espaciados entre elementos de la misma seccion*/
+ .espaciadosSections{
+   padding: 40px;
+ }
+
+ .bordeDeImagen{
+    border: #0b327e solid 2px;
+ }
+ .nosotros{
+ 
+    margin-left: 70px;
+    margin-right: 70px;
+    h3{
+        text-align: left;
+        margin-top: 30px;
     }
+    p{
+        text-align: justify;
+        margin-top: 30px;
+    }
+   ul{
+    text-align: left;
+    list-style: none;
+   }
+ }
+
 /*PAGINA DE PRODUCTOS*/
-.productos{
-    img{
-        width: 200px;
+.titulo{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    h1{
+        backdrop-filter: blur(20px);
+        
     }
+   
+}
+.fondoProductos{
+    background-image: url(../assets/img/imagenFondo4.jpeg);
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+        div{
+            text-align: center;
+            width: 600px;
+            height: 600px;
+            border-radius: 10px;
+            border: #6f6e70 2px solid;
+            background-color: #94bae0;
+            img{
+                width: 80%;
+                height: 80%;
+                object-fit: cover;
+            }
+        }
+        
 }
 
 
@@ -104,8 +190,26 @@ h2{
 .fondoGradienteColores{
     background-image: linear-gradient(to right top, #888690, #9d9ba4, #b3b1b8, #c9c8cd, #e0dfe2, #e0dfe2, #e0dfe2, #e0dfe2, #c9c8cd, #b3b1b8, #9d9ba4, #888690);
 }
+.tituloForm{
+    text-align: left;
+    padding: 20px;
+}
 
+.formulario{
+    font-size: 1.5rem;
+    padding: 40px;  
+    width: 600px;
+    border: #000000 2px solid;
+    div{
+        padding: 10px;
+    }  
+}
+
+/*FOOTER*/
 .footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: #426fb3 ;
     ul{
         list-style: none;
@@ -114,6 +218,7 @@ h2{
         color: black;
         text-decoration: none;
     }
+
     .whatsapp{
         font-size: 5rem;
         color: #35df22;

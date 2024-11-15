@@ -16,19 +16,21 @@
     <body>
         <header id="header" class="header">
             <!--para que el logo me lleve al inicio lo envuelvo en un ancla-->
-            <a href="index.html">
-                <img class="logo" src="./assets/img/logo.png" alt="Logo de Apta zona norte, puño del arte marcial taekwondo" width="100px">
-            </a>
-           
-            <nav>
-               <ul>
-                <!--tambien puedo poner en el inicio # , o no poner nada-->
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/carrito.html">Carrito</a></li>
-               </ul>
-            </nav>
+            <div class="contenedorLogo">
+                <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="Logo de Apta zona norte, puño del arte marcial taekwondo" width="100px">
+                </a>
+            </div>  
+                <nav>
+                   <ul>
+                    <!--tambien puedo poner en el inicio # , o no poner nada-->
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="./pages/productos.html">Productos</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                    <li><a href="./pages/carrito.html">Carrito</a></li>
+                   </ul>
+                </nav>
+            
         </header>
         <main>
             <section class="fondoPrincipal">
@@ -39,26 +41,65 @@
                     </h1>
                     <!--Unite hoy (que sea un boton que me lleve al contacto)-->
                     <a href="./pages/contacto.html">UNITE HOY</a>
+                    
                 </section>
            
             </section>
-            <section class="margenTop seccionesIndex">
-                <h2>Conviértete en tu mejor versión con nuestras clases y <a href="./pages/productos.html">productos</a></h2>
-            <p>
-                <div class="margenTop">
-                    En APta Zona Norte, ofrecemos clases para todos los niveles y edades.  Además, contamos con los mejores insumos para que tu entrenamiento sea completo.
-                </div> 
-                <div class="margenTop seccionesIndex"> <a href="./pages/contacto.html">Unite</a>  y veni a entrenar con nosotros .</div> 
-            </p>
-            <!--Nosotros -->
-            </section>
-            <section class="margenTop seccionesIndex">
-                <h2>Nosotros</h2>
-                <div class="margenTop">
-                    <img src="./assets/img/nosotros.jpeg" alt="Imagen de un torneo con los alumnos sentados en ronda">
+            <section class="seccionesIndex fondoSeccion1">
+                <div>
+                    <h2>Conviértete en tu mejor versión con nuestras clases y <a href="./pages/productos.html">productos</a></h2>
+                    <div class="espaciadosSections">
+                        <p> En APta Zona Norte, ofrecemos clases para todos los niveles y edades.  Además, contamos con los mejores insumos para que tu entrenamiento sea completo.</p>
+                
+                    <div class="espaciadosSections"> <a href="./pages/contacto.html">Unite</a>  y veni a entrenar con nosotros .</div> 
                 </div>
-                <div class="margenTop">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt aut ipsa, totam quam at quas cupiditate blanditiis recusandae esse maiores ut minima, mollitia debitis ea? Pariatur dolores fuga ad.
+            </section>
+            <hr>
+            <section class="seccionesIndex seccionVideo">
+                <div>
+                    <h3 class="espaciadosSections">¿Por qué elegirnos?</h3>
+                    <ul class="espaciadosSections">
+                        <li>Instructores expertos.</li>
+                        <li>Clases para todas las edades y niveles.</li>
+                        <li>Mejora física y mental.</li>
+                        <li>Ambiente seguro y motivador.</li>
+                        <li> Equipos y uniformes de alta calidad.</li>
+                        <li>Competencias y eventos exclusivos.</li>
+                    </ul>
+                </div>
+                <div>
+                    <video src="./assets/video/video.mp4" width="500" height="600" controls></video>
+                </div>
+                
+            </section>
+
+            <hr>
+               
+           
+                        <!--Nosotros -->
+            <section class="seccionesIndex">
+                <h2>Nosotros</h2>
+                <div>
+                    <img class="espaciadosSections bordeDeImagen" src="./assets/img/nosotros.jpeg" alt="Imagen de un torneo con los alumnos sentados en ronda">
+                </div>
+                <div class="espaciadosSections nosotros">
+                    <p>En <span class="fuenteNegrita">APTa Zona Norte</span>, somos más que un club de <span class="fuenteNegrita">Taekwondo:</span> somos una comunidad dedicada a la superación personal y al crecimiento integral de nuestros alumnos. Fundado en 2010 por el Maestro José García, nuestro club ha sido un referente en la enseñanza de Taekwondo para todas las edades y niveles. Con más de 14 años de experiencia, nos comprometemos a ofrecer un ambiente seguro, motivador y profesional para quienes buscan mejorar tanto física como mentalmente.</p>
+                    <h3>Nuestra Misión</h3>
+                    <p>Formar atletas completos y personas íntegras, inculcando en cada uno de nuestros estudiantes los valores del respeto, la disciplina y la perseverancia. Creemos que el Taekwondo no solo es un deporte, sino una filosofía de vida que acompaña a nuestros alumnos dentro y fuera del tatami.</p>
+                    <h3>Nuestros Instructores</h3>
+                    <p>Contamos con un equipo de instructores certificados, apasionados por el Taekwondo y comprometidos con el desarrollo de cada alumno. Encabezados por el Maestro José García (6º Dan, reconocido a nivel nacional), nuestros instructores tienen años de experiencia en competencias y enseñanza, asegurando un aprendizaje de calidad para todas las edades y niveles.</p>
+                    <h3>Nuestros Valores</h3>
+                    <p>En APTa Zona Norte, nos regimos por los principios fundamentales del Taekwondo:</p>
+                    <ul>
+                        <li><span class="fuenteNegrita">Disciplina: </span> La base para superar cualquier obstáculo.</li>
+                        <li> <span class="fuenteNegrita">Respeto:</span> Hacia nuestros compañeros, entrenadores y a nosotros mismos.</li>
+                        <li><span class="fuenteNegrita">Perseverancia:</span> Siempre esforzándonos por mejorar día a día.</li>
+                        <li><span class="fuenteNegrita">Integridad:</span> Actuar con honestidad y ética en todo lo que hacemos.</li>
+                    </ul>
+                    <h3>Logros y Reconocimientos</h3>
+                    <p>Nuestro club ha entrenado a más de 500 estudiantes, de los cuales muchos han competido en torneos nacionales e internacionales, destacándose en cada categoría. Hemos sido galardonados con más de 30 medallas en competencias nacionales y 10 títulos a nivel regional. ¡La superación y el éxito son parte de nuestro ADN!</p>
+                    <h3>Únete a Nuestra Comunidad</h3>
+                    <p>Ya sea que busques mejorar tu condición física, aprender defensa personal o competir a nivel profesional, en APTa Zona Norte tenemos un lugar para ti. Ven a entrenar con nosotros y descubre el poder del Taekwondo en tu vida.</p>
                 </div>
             </section>
             <!--<h2>Fuerza, Disciplina, y Pasión: Únete a Nuestro Club de Taekwondo</h2>-->
@@ -67,19 +108,6 @@
                 <img src="https://picsum.photos/200?random=1" alt="imagen random">
                 <img src="https://picsum.photos/200?random=2" alt="imagen random 2">-->
             
-            <section class="margenTop seccionesIndex">
-                <h2>¿Por qué elegirnos?</h2>
-                <ul class="alineadosIzquierda">
-                    <li>Instructores expertos.</li>
-                    <li>Clases para todas las edades y niveles.</li>
-                    <li>Mejora física y mental.</li>
-                    <li>Ambiente seguro y motivador.</li>
-                    <li> Equipos y uniformes de alta calidad.</li>
-                    <li>Competencias y eventos exclusivos.</li>
-                </ul>
-            </section>
-               
-            <!--promociones o inscripcion especial  "Primera clase GRATIS!!"-->
             
         </main>
         <footer class="footer">
@@ -90,33 +118,37 @@
                     <p><span class="fuenteNegrita">Teléfono:</span> (123) 456-7890</p>
                     <p><span class="fuenteNegrita">Correo electrónico:</span>  contacto@talento.com</p>
                 </address>
-                <a href="https://www.instagram.com/?hl=es" target="_blank">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-                
-                <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">
-                    <i class="fa-brands fa-square-whatsapp"></i>
-                </a>
+               
              </div>
              <nav>
                 <h3>Enlaces Rápidos</h3>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/carrito.html">Carrito</a></li>
-                </ul>
+            
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="./pages/productos.html">Productos</a></li>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                        <li><a href="./pages/carrito.html">Carrito</a></li>
+                    </ul>
+                
+            </nav>
+               
                 <div>
                     <h3>CONTACTANOS</h3>
                     <form action="">
                         <input type="email" placeholder="Correo electrónico" id="correo" name="correo">
                         <input type="submit" value="ENVIAR">
                     </form>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    
+                    <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                    </a>
                 </div>
-             </nav>
-                       
-            <a href="#header">Volver</a>
-            <div><p>© 2024. Todos los derechos reservados.</p></div>
+             
+                <div><p>© 2024. Todos los derechos reservados.</p></div>
+                <a href="#header">Volver</a>
         </footer>
     </body>
 </html>
